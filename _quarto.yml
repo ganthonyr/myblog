@@ -12,7 +12,8 @@ website:
   # repo-actions: [edit, issue]
   navbar:
     title: false
-    logo: images/icon.png
+    # logo: images/icon.png
+    logo: logo.png
     # logo-alt: "an acronym for AR in black text, on top of which are placed black glasses"
     right:
       - text: Home
