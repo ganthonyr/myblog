@@ -2,8 +2,8 @@ project:
   type: website
 
 website:
-  # site-url: https://albert-rapp.de
-  favicon: images/icon-logo.png
+  site-url: https://anthonyromero.netlify.app/
+  favicon: images/logo-final2.png
   # google-analytics: 
   #   tracking-id: "UA-242992767-1"
   #   anonymize-ip: true
