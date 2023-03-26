@@ -3,7 +3,8 @@ project:
 
 website:
   site-url: https://anthonyromero.netlify.app/
-  favicon: logo
+  favicon: logo.png
+  image: logo.png
   # google-analytics: 
   #   tracking-id: "UA-242992767-1"
   #   anonymize-ip: true
@@ -13,7 +14,7 @@ website:
   navbar:
     title: false
     # logo: images/icon.png
-    logo: logo
+    logo: logo.png
     # logo-alt: "an acronym for AR in black text, on top of which are placed black glasses"
     right:
       - text: Home
