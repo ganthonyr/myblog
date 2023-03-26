@@ -1,0 +1,458 @@
+---
+title: "George Anthony Romero Cerdán"
+subtitle: Escuela de Medicina humana - UNMSM | Lima, Perú
+# author: Anthony R.
+# author-title: Autor
+# date: today
+published-title: Última actualización
+date: "03-24-2023"
+date-format: short
+lang: Es
+about:
+  template: solana
+  links:
+# icons tomados de: https://jpswalsh.github.io/academicons/
+    - icon: envelope
+      text: anthony.romeromh@gmail.com
+      href: mailto:anthony.romeromh@gmail.com
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=bSpylR0AAAAJ&hl=es
+    - text: "{{< ai researchgate >}}"
+      href: https://www.researchgate.net/profile/Anthony-Romero-Cerdan-2
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-6342-647X
+    - icon: linkedin
+      href: https://www.linkedin.com/in/garomeroc/
+    - icon: github
+      href: https://github.com/ganthonyr
+link-external-newwindow: TRUE
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+options(tinytex.verbose = TRUE)
+library(tinytex)
+library(tidyverse)
+library(dplyr)
+library(kableExtra)
+library(knitr)
+library(huxtable)
+```
+
+#### Algunas cosas sobre mí
+
+::: {.d-flex .justify-content-between}
+-   Investigador [RENACYT nivel
+    VII](https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=0138155).
+-   He colaborado en proyectos de investigación con el Instituto de
+    Evaluación de Tecnologías en Salud e Investigación - EsSalud durante
+    los últimos 12 meses. <br>
+-   Tengo habilidades básicas en gestión, análisis y visualización de
+    datos con R y Stata.<br>
+-   Soy parte del equipo fundador de InkaStats Academy y miembro de ADIECS desde el 2018.<br>
+-   Me interesan la Ciencia de Datos en Salud, la Investigación clínica
+    y la Epidemiología aplicada a la salud pública.<br>
+:::
+
+### Información académica
+
+#### Formación universitaria
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Universidad Nacional Mayor de San Marcos**\
+Facultad de Medicina humana "San Fernando", EA de Medicina humana
+:::
+::: {text-end}
+Lima, PE\
+2018 - actualidad
+:::
+:::
+
+#### Formación adicional
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Curso: "Análisis de Indicadores Sociodemográficos con la ENAHO
+    2022-01"**\
+    Pontifica Universidad Católica del Perú, Facultad de Ciencias
+    Sociales
+:::
+::: {text-end}
+Oct - Nov 2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Pasantía: "Programa de Verano en Investigación Clínica y
+    Epidemiológica"**\
+    Unidad de Investigación Multidisciplinaria de la Clínica Avendaño
+    (UIMCA)
+:::
+::: {text-end}
+Ene - Feb 2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Curso: "Reporte de Casos clínicos"**\
+    Instituto Nacional de Salud del Perú
+:::
+::: {text-end}
+Nov 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Curso: "Redacción científica"**\
+    Instituto Nacional de Salud del Perú
+:::
+::: {text-end}
+Nov 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Curso: "Elaboración de Protocolos de Investigación"**\
+    Instituto Nacional de Salud del Perú
+:::
+::: {text-end}
+Nov 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Curso: "Ética en Investigación"**\
+    EsSalud - CITI Program
+:::
+::: {text-end}
+Sep 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Curso: "Skills -- Professional Development"**\
+    Santander Scholarships - ESADE
+:::
+::: {text-end}
+Mar - May 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Pasantía: "Estancia de Verano en Investigación Epidemiológica"**\
+    Unidad de Investigación para la Generación y Síntesis de Evidencias
+    en Salud (IGSES-USIL)
+:::
+::: {text-end}
+Ene - Feb 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Curso: "Cómo realizar una revisión sobre intervenciones"**\
+    Cochrane iberoamérica
+:::
+::: {text-end}
+Dic 2020
+:::
+:::
+
+### Participación en Congresos
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **XXV Jornada Científica Regional Centro - Lima**\
+    Sociedad Científica Médico Estudiantil Peruana (SOCIMEP)
+:::
+::: {text-end}
+2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **XXXIII Congreso Científico Nacional - Ucayali**\
+    Sociedad Científica Médico Estudiantil Peruana (SOCIMEP)
+:::
+::: {text-end}
+2019
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **XVI Jornadas Científicas Sanfernandinas**\
+    Facultad de Medicina - Universidad Nacional Mayor de San Marcos
+:::
+::: {text-end}
+2018
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **XII Congreso Científico Nacional del Instituto Nacional de
+    Salud**\
+    Instituto Nacional de Salud del Perú
+:::
+::: {text-end}
+2018
+:::
+:::
+
+### Experiencia en Organización y Cargos
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Asesor junior en la III Estancia de verano de la UIGSES-USIL
+:::
+::: {text-end}
+2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Miembro fundador de InkaStats Academy
+:::
+::: {text-end}
+2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Divulgador científico en CAPTA
+:::
+::: {text-end}
+2021 - 2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Docente fundador en la Ayudantía de Bioestadística de ADIECS
+:::
+::: {text-end}
+2020 - Actualidad
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Miembro de ADIECS - UNMSM
+:::
+::: {text-end}
+2018 - Actualidad
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Miembro organizador del I y II Taller de Búsqueda Bibliográfica de
+    ADIECS
+:::
+::: {text-end}
+2020 - 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Secretario de Investigación del Centro de Estudiantes de Medicina
+    UNMSM
+:::
+::: {text-end}
+2020
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Director de Desarrollo interno de ADIECS
+:::
+::: {text-end}
+2020
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Miembro organizador del I Conversatorio científico: "COVID-19 y las
+    lecciones aprendidas en 9 meses de pandemia"
+:::
+::: {text-end}
+2020
+:::
+:::
+
+<!-- Plantilla para agregar mas detalles a los cargos  
+::: {.d-flex .justify-content-between}
+::: {}
+**Centro de labor**  
+:::
+::: {.text-end}
+periodo
+:::
+:::
+*Cargo*
+- Funciones
+-->
+
+### Habilidades técnicas
+
+#### Tecnologías
+
+::: columns
+::: {.column width="22%"}
+##### *Lenguajes:*
+
+![](images/r-icon.png) ![](images/git-icon.png)
+![](images/html-icon.png){width="40"} ![](images/css-icon.png)
+:::
+
+::: {.column width="4%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="22%"}
+##### *Softwares:*
+
+![](images/rstudio-icon.png) ![](images/stata-icon.png)
+![](images/github-icon.png) ![](images/vscode-icon.png)
+:::
+
+::: {.column width="4%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="22%"}
+##### *Gestores de referencia:*
+
+![](images/mendeley-icon.png) ![](images/zotero-icon.png)
+:::
+
+::: {.column width="4%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="22%"}
+##### *Buscadores académicos:*
+
+![](images/pubmed-icon.jpg){width="90"}
+![](images/cochrane-icon.png){width="55"}
+![](images/scopus-icon.png){width="85"}
+:::
+:::
+
+#### Idiomas
+
+::: columns2
+::: {.column width="11%"}
+##### *Skill*
+
+**Reading** <br> 
+**Listening** <br> 
+**Writing** <br> 
+**Speaking** <br> 
+:::
+
+::: {.column width="2%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="11%"}
+##### *Español*
+
+Nativo <br> 
+Nativo <br> 
+Nativo <br>
+Nativo <br>
+:::
+
+::: {.column width="2%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="11%"}
+##### *Inglés*
+
+B1 <br> 
+B1 <br> 
+B1 <br> 
+B1 <br>
+:::
+
+::: {.column width="2%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="11%"}
+##### *Portugués*
+
+B2 <br> 
+B2 <br> 
+B2 <br> 
+B2 <br>
+:::
+:::
+
+### Referencias
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Percy Soto Becerra, MD, MSc(c)**\
+Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI-EsSalud\
+\-  Email: percys1991\@gmail.com
+:::
+::: {text-end}
+Lima, PE <br> 
+Investigador asociado
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Paquita Crismalú Díaz Sánchez, MD, MSc(c)**\
+Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI-EsSalud\
+\-  Email: pcdiazs\@gmail.com
+:::
+::: {text-end}
+Lima, PE <br> 
+Investigadora asociada
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Diego Urrunaga Pastor, MD, MSc(c)**\
+Universidad San Ignacio de Loyola\
+\-  Email: diego.urrunaga.pastor1\@gmail.com
+:::
+::: {text-end}
+Lima, PE <br> 
+Investigador asociado
+:::
+:::
+
+
+<!-- Boton para descargar el cv en pdf -->
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="cv_anthony.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>Descargar versión PDF
+  </a>
+</p>
+```

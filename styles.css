@@ -1,0 +1,71 @@
+/* css styles */
+
+
+/*paar el logo con lentes*/
+.navbar-logo {
+    max-height: 50px;
+    width: auto;
+    padding-right: 4px;
+}
+
+/*para los logos de redes en el footer*/
+.footer .bi {
+  font-size: 20px;
+}
+
+/*para la foto*/
+.about-image {
+  box-shadow: 10px 10px 20px 0 rgba(32,32,32,0.3);
+}
+
+.rounded {
+  border-radius: 10px !important;
+}
+
+/*para los links del resumen*/
+.column-page a {
+  color: #000;
+  text-decoration: none;
+}
+
+.column-page a:hover{
+  font-weight: bold;
+  color: #2C3E50;
+}
+
+
+/*seccion CV*/
+/*PAra el boton de descargar CV*/
+.text-center {
+  margin-top: 60px;
+  margin-bottom: -50px;
+}
+
+.text-center .btn {
+  background-color: steelblue;
+  color: white;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text-center .btn:hover {
+  color: white;
+  font-weight: bold;
+ 
+}
+
+/*para las columnas de habilidades tecnicas*/
+.column {
+  text-align: center;
+  justify-content: center;
+}
+
+.columns2 {
+  text-align: center;
+  justify-content: center;
+}
+
+.email {
+  font-style: italic;
+}

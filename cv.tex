@@ -1,0 +1,517 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Tabla de contenidos}
+\else
+  \newcommand\contentsname{Tabla de contenidos}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Listado de Figuras}
+\else
+  \newcommand\listfigurename{Listado de Figuras}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Listado de Tablas}
+\else
+  \newcommand\listtablename{Listado de Tablas}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figura}
+\else
+  \newcommand\figurename{Figura}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabla}
+\else
+  \newcommand\tablename{Tabla}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Listado de Listados}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{spanish}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={George Anthony Romero Cerdán},
+  pdflang={Es},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{George Anthony Romero Cerdán}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Escuela de Medicina humana - UNMSM \textbar{} Lima, Perú}
+\author{}
+\date{24/3/23}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, sharp corners, boxrule=0pt, enhanced, frame hidden, breakable, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+
+\hypertarget{algunas-cosas-sobre-muxed}{%
+\paragraph{Algunas cosas sobre mí}\label{algunas-cosas-sobre-muxed}}
+
+\begin{itemize}
+\tightlist
+\item
+  Investigador
+  \href{https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=0138155}{RENACYT
+  nivel VII}.
+\item
+  He colaborado en proyectos de investigación con el Instituto de
+  Evaluación de Tecnologías en Salud e Investigación - EsSalud durante
+  los últimos 12 meses.
+\item
+  Tengo habilidades básicas en gestión, análisis y visualización de
+  datos mediante el lenguaje R (y su IDE RStudio) y el software Stata.
+\item
+  Soy parte del equipo fundador de InkaStats Academy y miembro de la
+  Asociación para el Desarrollo de la Investigación Estudiantil en
+  Ciencias de la Salud - ADIECS desde el año 2018.
+\item
+  Me interesan la Ciencia de Datos en Salud, la Investigación clínica y
+  la Epidemiología aplicada a la salud pública.
+\end{itemize}
+
+\hypertarget{informaciuxf3n-acaduxe9mica}{%
+\subsubsection{Información
+académica}\label{informaciuxf3n-acaduxe9mica}}
+
+\hypertarget{formaciuxf3n-universitaria}{%
+\paragraph{Formación universitaria}\label{formaciuxf3n-universitaria}}
+
+\textbf{Universidad Nacional Mayor de San Marcos}\\
+Facultad de Medicina humana ``San Fernando'', EA de Medicina humana
+
+Lima, PE\\
+2018 - actualidad
+
+\hypertarget{formaciuxf3n-adicional}{%
+\paragraph{Formación adicional}\label{formaciuxf3n-adicional}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Curso: ``Análisis de Indicadores Sociodemográficos con la
+  ENAHO 2022-01''}\\
+  Pontifica Universidad Católica del Perú, Facultad de Ciencias Sociales
+\end{itemize}
+
+Oct - Nov 2022
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Pasantía: ``Programa de Verano en Investigación Clínica y
+  Epidemiológica''}\\
+  Unidad de Investigación Multidisciplinaria de la Clínica Avendaño
+  (UIMCA)
+\end{itemize}
+
+Ene - Feb 2022
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Curso: ``Reporte de Casos clínicos''}\\
+  Instituto Nacional de Salud del Perú
+\end{itemize}
+
+Nov 2021
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Curso: ``Redacción científica''}\\
+  Instituto Nacional de Salud del Perú
+\end{itemize}
+
+Nov 2021
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Curso: ``Elaboración de Protocolos de Investigación''}\\
+  Instituto Nacional de Salud del Perú
+\end{itemize}
+
+Nov 2021
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Curso: ``Ética en Investigación''}\\
+  EsSalud - CITI Program
+\end{itemize}
+
+Sep 2021
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Curso: ``Skills -- Professional Development''}\\
+  Santander Scholarships - ESADE
+\end{itemize}
+
+Mar - May 2021
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Pasantía: ``Estancia de Verano en Investigación
+  Epidemiológica''}\\
+  Unidad de Investigación para la Generación y Síntesis de Evidencias en
+  Salud (IGSES-USIL)
+\end{itemize}
+
+Ene - Feb 2021
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Curso: ``Cómo realizar una revisión sobre intervenciones''}\\
+  Cochrane iberoamérica
+\end{itemize}
+
+Dic 2020
+
+\hypertarget{participaciuxf3n-en-congresos}{%
+\subsubsection{Participación en
+Congresos}\label{participaciuxf3n-en-congresos}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{XXV Jornada Científica Regional Centro - Lima}\\
+  Sociedad Científica Médico Estudiantil Peruana (SOCIMEP)
+\end{itemize}
+
+2022
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{XXXIII Congreso Científico Nacional - Ucayali}\\
+  Sociedad Científica Médico Estudiantil Peruana (SOCIMEP)
+\end{itemize}
+
+2019
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{XVI Jornadas Científicas Sanfernandinas}\\
+  Facultad de Medicina - Universidad Nacional Mayor de San Marcos
+\end{itemize}
+
+2018
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{XII Congreso Científico Nacional del Instituto Nacional de
+  Salud}\\
+  Instituto Nacional de Salud del Perú
+\end{itemize}
+
+2018
+
+\hypertarget{experiencia-en-organizaciuxf3n-y-cargos}{%
+\subsubsection{Experiencia en Organización y
+Cargos}\label{experiencia-en-organizaciuxf3n-y-cargos}}
+
+\begin{itemize}
+\tightlist
+\item
+  Asesor junior en la III Estancia de verano de la UIGSES-USIL
+\end{itemize}
+
+2022
+
+\begin{itemize}
+\tightlist
+\item
+  Miembro fundador de InkaStats Academy
+\end{itemize}
+
+2022
+
+\begin{itemize}
+\tightlist
+\item
+  Divulgador científico en CAPTA
+\end{itemize}
+
+2021 - 2022
+
+\begin{itemize}
+\tightlist
+\item
+  Docente fundador en la Ayudantía de Bioestadística de ADIECS
+\end{itemize}
+
+2020 - Actualidad
+
+\begin{itemize}
+\tightlist
+\item
+  Miembro de ADIECS - UNMSM
+\end{itemize}
+
+2018 - Actualidad
+
+\begin{itemize}
+\tightlist
+\item
+  Miembro organizador del I y II Taller de Búsqueda Bibliográfica de
+  ADIECS
+\end{itemize}
+
+2020 - 2021
+
+\begin{itemize}
+\tightlist
+\item
+  Secretario de Investigación del Centro de Estudiantes de Medicina
+  UNMSM
+\end{itemize}
+
+2020
+
+\begin{itemize}
+\tightlist
+\item
+  Director de Desarrollo interno de ADIECS
+\end{itemize}
+
+2020
+
+\begin{itemize}
+\tightlist
+\item
+  Miembro organizador del I Conversatorio científico: ``COVID-19 y las
+  lecciones aprendidas en 9 meses de pandemia''
+\end{itemize}
+
+2020
+
+\hypertarget{habilidades-tuxe9cnicas}{%
+\subsubsection{Habilidades técnicas}\label{habilidades-tuxe9cnicas}}
+
+\hypertarget{tecnologuxedas}{%
+\paragraph{Tecnologías}\label{tecnologuxedas}}
+
+\hypertarget{lenguajes}{%
+\subparagraph{\texorpdfstring{\emph{Lenguajes:}}{Lenguajes:}}\label{lenguajes}}
+
+\includegraphics{images/r-icon.png}
+\includegraphics{images/git-icon.png}
+\includegraphics[width=0.41667in,height=\textheight]{images/html-icon.png}
+\includegraphics{images/css-icon.png}
+
+\hypertarget{softwares}{%
+\subparagraph{\texorpdfstring{\emph{Softwares:}}{Softwares:}}\label{softwares}}
+
+\includegraphics{images/rstudio-icon.png}
+\includegraphics{images/stata-icon.png}
+\includegraphics{images/github-icon.png}
+\includegraphics{images/vscode-icon.png}
+
+\hypertarget{gestores-de-referencia}{%
+\subparagraph{\texorpdfstring{\emph{Gestores de
+referencia:}}{Gestores de referencia:}}\label{gestores-de-referencia}}
+
+\includegraphics{images/mendeley-icon.png}
+\includegraphics{images/zotero-icon.png}
+
+\hypertarget{buscadores-acaduxe9micos}{%
+\subparagraph{\texorpdfstring{\emph{Buscadores
+académicos:}}{Buscadores académicos:}}\label{buscadores-acaduxe9micos}}
+
+\includegraphics[width=0.9375in,height=\textheight]{images/pubmed-icon.jpg}
+\includegraphics[width=0.57292in,height=\textheight]{images/cochrane-icon.png}
+\includegraphics[width=0.88542in,height=\textheight]{images/scopus-icon.png}
+
+\hypertarget{idiomas}{%
+\paragraph{Idiomas}\label{idiomas}}
+
+\hypertarget{skill}{%
+\subparagraph{\texorpdfstring{\emph{Skill}}{Skill}}\label{skill}}
+
+\textbf{Reading}~ \textbf{Listening}~ \textbf{Writing}~
+\textbf{Speaking}\\
+
+\hypertarget{espauxf1ol}{%
+\subparagraph{\texorpdfstring{\emph{Español}}{Español}}\label{espauxf1ol}}
+
+Nativo~ Nativo~ Nativo~ Nativo\\
+
+\hypertarget{ingluxe9s}{%
+\subparagraph{\texorpdfstring{\emph{Inglés}}{Inglés}}\label{ingluxe9s}}
+
+B1 B1 B1 B1
+
+\hypertarget{portuguuxe9s}{%
+\subparagraph{\texorpdfstring{\emph{Portugués}}{Portugués}}\label{portuguuxe9s}}
+
+B2 B2 B2 B2
+
+\hypertarget{referencias}{%
+\subsubsection{Referencias}\label{referencias}}
+
+\textbf{Percy Soto Becerra, MD, MSc(c)}\\
+Instituto de Evaluación de Tecnologías en Salud e Investigación -
+IETSI-EsSalud\\
+- Email: percys1991@gmail.com
+
+Lima, PE Investigador asociado
+
+\textbf{Paquita Crismalú Díaz Sánchez, MD, MSc(c)}\\
+Instituto de Evaluación de Tecnologías en Salud e Investigación -
+IETSI-EsSalud\\
+- Email: pcdiazs@gmail.com
+
+Lima, PE Investigadora asociada
+
+\textbf{Diego Urrunaga Pastor, MD, MSc(c)}\\
+Universidad San Ignacio de Loyola\\
+- Email: diego.urrunaga.pastor1@gmail.com
+
+Lima, PE Investigador asociado
+
+
+
+\end{document}

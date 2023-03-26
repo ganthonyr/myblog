@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Anthony Romero Cerdán",
+    "section": "",
+    "text": "¡Hola! Mi nombre es Anthony Romero, soy estudiante de Medicina humana en la Universidad Nacional Mayor de San Marcos (UNMSM). Miembro de ADIECS y parte del equipo de InkaStats Academy. Soy un constante aprendiz al que le gusta trabajar en proyectos de Ciencia de Datos en Salud. Disfruto experimentando con nuevas tecnologías y participar en proyectos con R, Stata y HTML/CSS aplicados a la Salud, así como en investigación médica, bioestadística y epidemiología clínica y de salud pública.\n🧠 Estado actual: Aprendiendo R, Stata y HTML/CSS… próximamente Python :D"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Posts",
+    "section": "",
+    "text": "para agregar fechas en los posts: en el yml -> date: “Marzo 2023”\n\n\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tutoriales.html",
+    "href": "tutoriales.html",
+    "title": "Tutoriales",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 23, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "George Anthony Romero Cerdán",
+    "section": "",
+    "text": "Algunas cosas sobre mí\n\n\nInvestigador RENACYT nivel VII.\nHe colaborado en proyectos de investigación con el Instituto de Evaluación de Tecnologías en Salud e Investigación - EsSalud durante los últimos 12 meses. \nTengo habilidades básicas en gestión, análisis y visualización de datos con R y Stata.\nSoy parte del equipo fundador de InkaStats Academy y miembro de ADIECS desde el 2018.\nMe interesan la Ciencia de Datos en Salud, la Investigación clínica y la Epidemiología aplicada a la salud pública.\n\n\n\n\nInformación académica\n\nFormación universitaria\n\n\nUniversidad Nacional Mayor de San Marcos\nFacultad de Medicina humana “San Fernando”, EA de Medicina humana\n\n\nLima, PE\n2018 - actualidad\n\n\n\n\nFormación adicional\n\n\n\nCurso: “Análisis de Indicadores Sociodemográficos con la ENAHO 2022-01”\nPontifica Universidad Católica del Perú, Facultad de Ciencias Sociales\n\n\n\nOct - Nov 2022\n\n\n\n\n\nPasantía: “Programa de Verano en Investigación Clínica y Epidemiológica”\nUnidad de Investigación Multidisciplinaria de la Clínica Avendaño (UIMCA)\n\n\n\nEne - Feb 2022\n\n\n\n\n\nCurso: “Reporte de Casos clínicos”\nInstituto Nacional de Salud del Perú\n\n\n\nNov 2021\n\n\n\n\n\nCurso: “Redacción científica”\nInstituto Nacional de Salud del Perú\n\n\n\nNov 2021\n\n\n\n\n\nCurso: “Elaboración de Protocolos de Investigación”\nInstituto Nacional de Salud del Perú\n\n\n\nNov 2021\n\n\n\n\n\nCurso: “Ética en Investigación”\nEsSalud - CITI Program\n\n\n\nSep 2021\n\n\n\n\n\nCurso: “Skills – Professional Development”\nSantander Scholarships - ESADE\n\n\n\nMar - May 2021\n\n\n\n\n\nPasantía: “Estancia de Verano en Investigación Epidemiológica”\nUnidad de Investigación para la Generación y Síntesis de Evidencias en Salud (IGSES-USIL)\n\n\n\nEne - Feb 2021\n\n\n\n\n\nCurso: “Cómo realizar una revisión sobre intervenciones”\nCochrane iberoamérica\n\n\n\nDic 2020\n\n\n\n\n\nParticipación en Congresos\n\n\n\nXXV Jornada Científica Regional Centro - Lima\nSociedad Científica Médico Estudiantil Peruana (SOCIMEP)\n\n\n\n2022\n\n\n\n\n\nXXXIII Congreso Científico Nacional - Ucayali\nSociedad Científica Médico Estudiantil Peruana (SOCIMEP)\n\n\n\n2019\n\n\n\n\n\nXVI Jornadas Científicas Sanfernandinas\nFacultad de Medicina - Universidad Nacional Mayor de San Marcos\n\n\n\n2018\n\n\n\n\n\nXII Congreso Científico Nacional del Instituto Nacional de Salud\nInstituto Nacional de Salud del Perú\n\n\n\n2018\n\n\n\n\nExperiencia en Organización y Cargos\n\n\n\nAsesor junior en la III Estancia de verano de la UIGSES-USIL\n\n\n\n2022\n\n\n\n\n\nMiembro fundador de InkaStats Academy\n\n\n\n2022\n\n\n\n\n\nDivulgador científico en CAPTA\n\n\n\n2021 - 2022\n\n\n\n\n\nDocente fundador en la Ayudantía de Bioestadística de ADIECS\n\n\n\n2020 - Actualidad\n\n\n\n\n\nMiembro de ADIECS - UNMSM\n\n\n\n2018 - Actualidad\n\n\n\n\n\nMiembro organizador del I y II Taller de Búsqueda Bibliográfica de ADIECS\n\n\n\n2020 - 2021\n\n\n\n\n\nSecretario de Investigación del Centro de Estudiantes de Medicina UNMSM\n\n\n\n2020\n\n\n\n\n\nDirector de Desarrollo interno de ADIECS\n\n\n\n2020\n\n\n\n\n\nMiembro organizador del I Conversatorio científico: “COVID-19 y las lecciones aprendidas en 9 meses de pandemia”\n\n\n\n2020\n\n\n\n\n\nHabilidades técnicas\n\nTecnologías\n\n\n\nLenguajes:\n   \n\n\n\n\n\nSoftwares:\n   \n\n\n\n\n\nGestores de referencia:\n \n\n\n\n\n\nBuscadores académicos:\n  \n\n\n\n\n\nIdiomas\n\n\n\nSkill\nReading  Listening  Writing  Speaking \n\n\n\n\n\n\n\nEspañol\nNativo  Nativo  Nativo  Nativo \n\n\n\n\n\n\n\nInglés\nB1  B1  B1  B1 \n\n\n\n\n\n\n\nPortugués\nB2  B2  B2  B2 \n\n\n\n\n\n\nReferencias\n\n\nPercy Soto Becerra, MD, MSc(c)\nInstituto de Evaluación de Tecnologías en Salud e Investigación - IETSI-EsSalud\n- Email: percys1991@gmail.com\n\n\nLima, PE  Investigador asociado\n\n\n\n\nPaquita Crismalú Díaz Sánchez, MD, MSc(c)\nInstituto de Evaluación de Tecnologías en Salud e Investigación - IETSI-EsSalud\n- Email: pcdiazs@gmail.com\n\n\nLima, PE  Investigadora asociada\n\n\n\n\nDiego Urrunaga Pastor, MD, MSc(c)\nUniversidad San Ignacio de Loyola\n- Email: diego.urrunaga.pastor1@gmail.com\n\n\nLima, PE  Investigador asociado\n\n\n\n\n  \n    Descargar versión PDF"
+  },
+  {
+    "objectID": "cv.html#idiomas",
+    "href": "cv.html#idiomas",
+    "title": "George Anthony Romero Cerdán",
+    "section": "Idiomas",
+    "text": "Idiomas\nholax2\n\nIdiomas\n\n::: {.cell} ::: {.cell-output-display}\n::: :::\n\n\nReferencias\n\n\n\n\nTeaching\n\nFacebook\n\n\nInternal datacamp class on designing and analyzing experiments\n\n\n2017-2019\n\n\n\n\nNYU Undergraduate\n\n\nTA for Power and Politics in America (under Jonathan Nagler)\n\n\nFall 2014\n\n\n\n\nTA for Games, Strategy and Politics (under Steven Brams)\n\n\nFall 2013\n\n\n\n\nNYU Graduate\n\n\nTA for Quantitative Methods II (under Nathaniel Beck)\n\n\nSpring 2015\n\n\n\n\nTA for Quantitative Methods II (under Cyrus Samii)\n\n\nSpring 2014\n\n\n\n\nHigh Performance Computing Talk for NYU Datalab\n\n\nFebruary 2014\n\n\n\n\nIntroduction to R for NYU Datalab\n\n\nJanuary 2013"
+  },
+  {
+    "objectID": "cv.html#first-column",
+    "href": "cv.html#first-column",
+    "title": "George Anthony Romero Cerdán",
+    "section": "First column",
+    "text": "First column\nI would like to have text here\nSentence becomes longer, it should automatically stay in their column"
+  },
+  {
+    "objectID": "cv.html#second-column",
+    "href": "cv.html#second-column",
+    "title": "George Anthony Romero Cerdán",
+    "section": "Second column",
+    "text": "Second column\nand here\nMore text"
+  }
+]

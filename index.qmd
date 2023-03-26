@@ -1,0 +1,29 @@
+---
+title: "Anthony Romero Cerdán"
+image: images/myphoto.jpg
+about:
+  template: jolla
+  image-shape: rounded
+  image-width: 18em
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/ganthonyr94
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/garomeroc/
+    - icon: github
+      text: Github
+      href: https://github.com/ganthonyr
+    - icon: envelope 
+      text: Email
+      href: mailto:anthony.romeromh@gmail.com
+link-external-newwindow: TRUE
+format:
+  html:
+    page-layout: full
+---
+
+¡Hola! Mi nombre es Anthony Romero, soy estudiante de Medicina humana en la Universidad Nacional Mayor de San Marcos (UNMSM). Miembro de [ADIECS](https://www.facebook.com/adiecs.unmsm) y parte del equipo de [InkaStats Academy](https://www.facebook.com/InkaStats.DSS). Soy un constante aprendiz al que le gusta trabajar en proyectos de Ciencia de Datos en Salud. Disfruto experimentando con nuevas tecnologías y participar en proyectos con R, Stata y HTML/CSS aplicados a la Salud, así como en investigación médica, bioestadística y epidemiología clínica y de salud pública.
+
+🧠 Estado actual: Aprendiendo R, Stata y HTML/CSS... próximamente Python :D
