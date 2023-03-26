@@ -3,7 +3,7 @@ project:
 
 website:
   # site-url: https://albert-rapp.de
-  favicon: images/favicon16.png
+  favicon: images/favicon.png
   # google-analytics: 
   #   tracking-id: "UA-242992767-1"
   #   anonymize-ip: true
