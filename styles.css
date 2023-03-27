@@ -1,6 +1,5 @@
 /* css styles */
 
-
 /*paar el logo con lentes*/
 .navbar-logo {
     max-height: 50px;
@@ -8,11 +7,8 @@
     padding-right: 4px;
 }
 
-/*para los logos de redes en el footer*/
-.footer .bi {
-  font-size: 20px;
-}
 
+/*Main*/
 /*para la foto*/
 .about-image {
   box-shadow: 10px 10px 20px 0 rgba(32,32,32,0.3);
@@ -22,6 +18,34 @@
   border-radius: 10px !important;
 }
 
+/*contenido del resumen*/
+#quarto-document-content {
+  font-size: 17px;
+  text-align: left;
+}
+
+.text{
+  text-align: center;
+}
+
+
+.nav-tabs .nav-link {  
+  color: #566472;
+  font-weight: 400;
+}
+
+.nav-tabs .nav-link.active {
+  color: #566472;
+}
+
+.nav-tabs .nav-link:hover {
+  font-weight: 600;
+  background-color: #fbfbfc;
+}
+
+.tab-content{
+  border: 1px;
+}
 /*para los links del resumen*/
 .column-page a {
   color: #000;
@@ -33,6 +57,14 @@
   color: #2C3E50;
 }
 
+/*Footer*/
+.nav-footer-left .img-fluid {
+  height: 25px;
+}
+
+.footer {
+  font-size: 15px;
+}
 
 /*seccion CV*/
 /*PAra el boton de descargar CV*/

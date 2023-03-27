@@ -3,19 +3,10 @@ project:
 
 website:
   site-url: https://anthonyromero.netlify.app/
-  favicon: images/logo.png
-  image: images/logo.png
-  # google-analytics: 
-  #   tracking-id: "UA-242992767-1"
-  #   anonymize-ip: true
-  # site-url: https://rlille.fr
-  # repo-url: https://github.com/RLille/rlille.fr/
-  # repo-actions: [edit, issue]
+  favicon: images/logo-final2.png
   navbar:
     title: false
-    # logo: images/icon.png
-    logo: images/logo.png
-    # logo-alt: "an acronym for AR in black text, on top of which are placed black glasses"
+    logo: images/icon.png
     right:
       - text: Home
         href: index.qmd
@@ -31,16 +22,14 @@ website:
         href: https://twitter.com/ganthonyr94
   page-footer: 
     left: |
-      Creado KON ![](images/ricon24.png) y [Quarto](https://quarto.org).
-    center: |
-      &copy; 2023 Anthony Romero Cerdán  
-      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
+      Creado con ![](images/ricon24.png) y [Quarto](https://quarto.org).  
+      Código fuente [![](images/github-icon.png)](https://github.com/ganthonyr/myblog)
     background: light
     right: |
-     Ver el código fuente en [![](images/github-icon.png)](https://github.com/ganthonyr)
+     &copy; 2023 Anthony Romero Cerdán  
+      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
     border: false
   reader-mode: true
-# description: "Hola!" para los posts sí sirve como intro
 format:
   html:
     toc: true

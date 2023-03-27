@@ -26,6 +26,9 @@ about:
     - icon: github
       href: https://github.com/ganthonyr
 link-external-newwindow: TRUE
+format:
+  html:
+    page-layout: full
 ---
 
 ```{r}
@@ -41,6 +44,394 @@ library(kableExtra)
 library(knitr)
 library(huxtable)
 ```
+::: {.panel-tabset}
+
+## English
+
+#### A few things about me
+
+::: {.d-flex .justify-content-between}
+-   [RENACYT level
+    VII](https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=0138155) researcher.  
+-   I have collaborated in research projects with the Instituto de
+    Evaluación de Tecnologías en Salud e Investigación - EsSalud for the last 12 months.  
+-   I have basic skills in data management, analysis and visualization with R and Stata.  
+-   I am part of the founding team of InkaStats Academy and a member of ADIECS since 2018.  
+-   I am interested in Health Data Science, clinical research and Epidemiology applied to public health.   
+:::
+
+### Academic information
+
+#### University education
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Universidad Nacional Mayor de San Marcos**\
+Facultad de Medicina humana "San Fernando", EA de Medicina humana
+:::
+::: {text-end}
+Lima, PE\
+2018 - present
+:::
+:::
+
+#### Additional training
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Course: "Analysis of Sociodemographic Indicators with the ENAHO 2022-01"**  
+    Pontifica Universidad Católica del Perú, Facultad de Ciencias
+    Sociales
+:::
+::: {text-end}
+Oct - Nov 2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Internship: "Summer Program in Clinical and Epidemiological Research"**\
+    Unidad de Investigación Multidisciplinaria de la Clínica Avendaño
+    (UIMCA)
+:::
+::: {text-end}
+Ene - Feb 2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Course: "Clinical Case Report"**\
+    Instituto Nacional de Salud del Perú
+:::
+::: {text-end}
+Nov 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Course: "Scientific writing"**\
+    Instituto Nacional de Salud del Perú
+:::
+::: {text-end}
+Nov 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Course: "Elaboration of Research Protocols"**\
+    Instituto Nacional de Salud del Perú
+:::
+::: {text-end}
+Nov 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Course: "Ethics in Research"**\
+    EsSalud - CITI Program
+:::
+::: {text-end}
+Sep 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Course: "Skills -- Professional Development"**\
+    Santander Scholarships - ESADE
+:::
+::: {text-end}
+Mar - May 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Internship: "Epidemiological Research Summer Internship"**\
+    Unidad de Investigación para la Generación y Síntesis de Evidencias
+    en Salud (IGSES-USIL)
+:::
+::: {text-end}
+Ene - Feb 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Course: "How to conduct a review on interventions".**\
+    Cochrane iberoamérica
+:::
+::: {text-end}
+Dic 2020
+:::
+:::
+
+### Participation in Congresses
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **XXV Jornada Científica Regional Centro - Lima**\
+    Sociedad Científica Médico Estudiantil Peruana (SOCIMEP)
+:::
+::: {text-end}
+2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **XXXIII Congreso Científico Nacional - Ucayali**\
+    Sociedad Científica Médico Estudiantil Peruana (SOCIMEP)
+:::
+::: {text-end}
+2019
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **XVI Jornadas Científicas Sanfernandinas**\
+    Facultad de Medicina - Universidad Nacional Mayor de San Marcos
+:::
+::: {text-end}
+2018
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **XII Congreso Científico Nacional del Instituto Nacional de Salud**\
+    Instituto Nacional de Salud del Perú
+:::
+::: {text-end}
+2018
+:::
+:::
+
+### Organizational Experience and Positions
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Junior advisor at the III UIGSES-USIL Summer Stay
+:::
+::: {text-end}
+2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Founding member of InkaStats Academy
+:::
+::: {text-end}
+2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Science communicator at CAPTA
+:::
+::: {text-end}
+2021 - 2022
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Founding professor of the ADIECS Biostatistics Assistantship.
+:::
+::: {text-end}
+2020 - present
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Member of ADIECS - UNMSM
+:::
+::: {text-end}
+2018 - present
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Organizing member of the I and II ADIECS Bibliographic Search Workshops ADIECS
+:::
+::: {text-end}
+2020 - 2021
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Secretary of Research of the Medical Students Center UNMSM
+:::
+::: {text-end}
+2020
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   ADIECS Internal Development Director
+:::
+::: {text-end}
+2020
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   Organizing member of the I Scientific Conference: "COVID-19 and the lessons learned from 9 months of pandemic lessons learned in 9 months of pandemic"
+:::
+::: {text-end}
+2020
+:::
+:::
+
+### Technical skills
+
+#### Technologies
+
+::: columns
+::: {.column width="22%"}
+##### *Languages:*
+
+![](images/r-icon.png) ![](images/git-icon.png)
+![](images/html-icon.png){width="40"} ![](images/css-icon.png)
+:::
+
+::: {.column width="4%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="22%"}
+##### *Softwares:*
+
+![](images/rstudio-icon.png) ![](images/stata-icon.png)
+![](images/github-icon.png) ![](images/vscode-icon.png)
+:::
+
+::: {.column width="4%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="22%"}
+##### *Reference managers:*
+
+![](images/mendeley-icon.png) ![](images/zotero-icon.png)
+:::
+
+::: {.column width="4%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="22%"}
+##### *Academic search engines:*
+
+![](images/pubmed-icon.jpg){width="90"}
+![](images/cochrane-icon.png){width="55"}
+![](images/scopus-icon.png){width="85"}
+:::
+:::
+
+#### Languages
+
+::: columns2
+::: {.column width="11%"}
+##### *Skill*
+
+**Reading** <br> 
+**Listening** <br> 
+**Writing** <br> 
+**Speaking** <br> 
+:::
+
+::: {.column width="2%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="11%"}
+##### *Spanish*
+
+Native <br> 
+Native <br> 
+Native <br>
+Native <br>
+:::
+
+::: {.column width="2%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="11%"}
+##### *English*
+
+B1 <br> 
+B1 <br> 
+B1 <br> 
+B1 <br>
+:::
+
+::: {.column width="2%"}
+<!-- espacio entre col -->
+:::
+
+::: {.column width="11%"}
+##### *Portuguese*
+
+B2 <br> 
+B2 <br> 
+B2 <br> 
+B2 <br>
+:::
+:::
+
+### References
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Percy Soto Becerra, MD, MSc(c)**\
+Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI-EsSalud\
+\-  Email: percys1991\@gmail.com
+:::
+::: {text-end}
+Lima, PE <br> 
+Research Associate
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Paquita Crismalú Díaz Sánchez, MD, MSc(c)**\
+Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI-EsSalud\
+\-  Email: pcdiazs\@gmail.com
+:::
+::: {text-end}
+Lima, PE <br> 
+Research Associate
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Diego Urrunaga Pastor, MD, MSc(c)**\
+Universidad San Ignacio de Loyola\
+\-  Email: diego.urrunaga.pastor1\@gmail.com
+:::
+::: {text-end}
+Lima, PE <br> 
+Research Associate
+:::
+:::
+
+## Español
 
 #### Algunas cosas sobre mí
 
@@ -447,12 +838,12 @@ Investigador asociado
 :::
 :::
 
-
+:::
 <!-- Boton para descargar el cv en pdf -->
 ```{=html}
 <p class="text-center">
   <a class="btn btn-primary btn-lg cv-download" href="cv_anthony.pdf" target="_blank">
-    <i class="fa-solid fa-file-arrow-down"></i>Descargar versión PDF
+    <i class="fa-solid fa-file-arrow-down"></i>CV/Resume PDF
   </a>
 </p>
 ```
