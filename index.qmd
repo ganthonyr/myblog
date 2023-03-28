@@ -4,7 +4,7 @@ image: images/myphoto.jpg
 about:
   template: jolla
   image-shape: rounded
-  image-width: 18em
+  image-width: 15em
   links:
     - icon: twitter
       text: Twitter
@@ -35,7 +35,7 @@ format:
 
 ::: {.text}
 🧠 Current status: soon to learn **Python** :D
-::: 
+:::  
 
 ## Español
 

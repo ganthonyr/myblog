@@ -26,9 +26,6 @@ about:
     - icon: github
       href: https://github.com/ganthonyr
 link-external-newwindow: TRUE
-format:
-  html:
-    page-layout: full
 ---
 
 ```{r}
@@ -37,20 +34,24 @@ format:
 #| message: false
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 options(tinytex.verbose = TRUE)
-library(tinytex)
-library(tidyverse)
-library(dplyr)
-library(kableExtra)
-library(knitr)
-library(huxtable)
+
+if(!require("pacman")) 
+  install.packages("pacman")
+
+pacman::p_load(tinytex, tidyverse, scholar, knitr)
 ```
+
 ::: {.panel-tabset}
 
 ## English
 
+::: {.cv-about .panel-tabset}
+
+## CV
+
 #### A few things about me
 
-::: {.d-flex .justify-content-between}
+::: {.intro}
 -   [RENACYT level
     VII](https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=0138155) researcher.  
 -   I have collaborated in research projects with the Instituto de
@@ -431,7 +432,51 @@ Research Associate
 :::
 :::
 
-## Español
+<!-- Boton para descargar el cv en pdf -->
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="cv_anthony.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>CV/Resume PDF
+  </a>
+</p>
+```
+
+
+## Production
+
+### Traslated Cheatsheets
+Here you will find the **R cheatsheets** that I have translated with [Percy Soto](https://github.com/psotob91) (*my R mentor*) and some friends.
+
+### Publications
+
+You can find my **academic publications** in my ![](https://orcid.org/sites/default/files/images/orcid_16x16.png) [Orcid](https://orcid.org/0000-0001-6342-647X) and [Scholar](https://scholar.google.com/citations?user=bSpylR0AAAAJ&hl=es) profiles.
+
+```{r}
+#| echo: false
+#| eval: true
+
+if(!require("pacman")) 
+  install.packages("pacman")
+
+pacman::p_load(tidyverse, scholar, knitr)
+
+id <- "bSpylR0AAAAJ&hl"
+
+scholar::get_publications(id) %>% 
+  as_tibble() %>% 
+  select(title:year) %>% 
+  arrange(desc(year),desc(cites)) %>% 
+  knitr::kable()
+```
+
+::: 
+<!-- aqui termina el tabset en ingles -->
+
+## Español 
+
+::: {.cv-about .panel-tabset}
+
+## CV
 
 #### Algunas cosas sobre mí
 
@@ -838,7 +883,7 @@ Investigador asociado
 :::
 :::
 
-:::
+
 <!-- Boton para descargar el cv en pdf -->
 ```{=html}
 <p class="text-center">
@@ -847,3 +892,38 @@ Investigador asociado
   </a>
 </p>
 ```
+
+## Producción
+
+### Cheatsheets traducidos
+Aquí encontrarás los **Cheatsheets de R** que he traducido junto a [Percy Soto](https://github.com/psotob91) (*mi mentor en R*) y algunos amigos/as.
+
+![](images/cheatsheet1.png){width="450"}
+
+### Publicaciones
+
+Puedes encontrar mis publicaciones en mis perfiles de ![](https://orcid.org/sites/default/files/images/orcid_16x16.png) [Orcid](https://orcid.org/0000-0001-6342-647X) y [Scholar](https://scholar.google.com/citations?user=bSpylR0AAAAJ&hl=es).
+
+```{r}
+#| echo: false
+#| eval: true
+
+if(!require("pacman")) 
+  install.packages("pacman")
+
+pacman::p_load(tidyverse, scholar, knitr)
+
+id <- "bSpylR0AAAAJ&hl"
+
+scholar::get_publications(id) %>% 
+  as_tibble() %>% 
+  select(title:year) %>% 
+  arrange(desc(year),desc(cites)) %>% 
+  knitr::kable()
+```
+
+:::
+<!-- aqui termina el tabset en español -->
+
+:::
+<!-- aqui termina el tabset general -->

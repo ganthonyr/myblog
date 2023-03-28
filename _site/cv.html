@@ -62,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar"
   }
 }</script>
+<link rel="stylesheet" media="screen" href="https://fonts.google.com/specimen/Source+Sans+Pro" type="text/css">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -82,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html">
  <span class="menu-text">Home</span></a>
@@ -99,11 +100,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./cv.html" aria-current="page">
  <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/ganthonyr"><i class="bi bi-github" role="img">
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+ <span class="menu-text"></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-bi-github">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/ganthonyr/myblog">
+ <span class="dropdown-text">Source code</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/ganthonyr/myblog/issues">
+ <span class="dropdown-text">Report a bug</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/ganthonyr94"><i class="bi bi-twitter" role="img">
 </i> 
@@ -172,12 +187,16 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 </div>
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">English</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Español</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">English</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Español</a></li></ul>
 <div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<div class="cv-about panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">CV</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Production</a></li></ul>
+<div class="cv-about tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="a-few-things-about-me" class="level4">
 <h4 data-anchor-id="a-few-things-about-me">A few things about me</h4>
-<div class="d-flex justify-content-between">
+<div class="intro">
 <ul>
 <li><a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=0138155">RENACYT level VII</a> researcher.<br>
 </li>
@@ -555,9 +574,179 @@ Universidad San Ignacio de Loyola<br>
 <p>Lima, PE <br> Research Associate</p>
 </div>
 </div>
+<!-- Boton para descargar el cv en pdf -->
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="cv_anthony.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>CV/Resume PDF
+  </a>
+</p>
 </section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<section id="traslated-cheatsheets" class="level3">
+<h3 data-anchor-id="traslated-cheatsheets">Traslated Cheatsheets</h3>
+<p>Here you will find the <strong>R cheatsheets</strong> that I have translated with <a href="https://github.com/psotob91">Percy Soto</a> (<em>my R mentor</em>) and some friends.</p>
+</section>
+<section id="publications" class="level3">
+<h3 data-anchor-id="publications">Publications</h3>
+<p>You can find my <strong>academic publications</strong> in my <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" class="img-fluid"> <a href="https://orcid.org/0000-0001-6342-647X">Orcid</a> and <a href="https://scholar.google.com/citations?user=bSpylR0AAAAJ&amp;hl=es">Scholar</a> profiles.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 21%">
+<col style="width: 19%">
+<col style="width: 5%">
+<col style="width: 1%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">title</th>
+<th style="text-align: left;">author</th>
+<th style="text-align: left;">journal</th>
+<th style="text-align: left;">number</th>
+<th style="text-align: right;">cites</th>
+<th style="text-align: right;">year</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">The neutrophil-to-Lymphocyte ratio and the platelet-to-Lymphocyte ratio as predictors of mortality in older adults hospitalized with COVID-19 in Peru</td>
+<td style="text-align: left;">S Ortega-Rojas, L Salazar-Talla, A Romero-Cerdán, P Soto-Becerra, …</td>
+<td style="text-align: left;">Disease Markers</td>
+<td style="text-align: left;">2022</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2022</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alineamiento de la producción científica a las prioridades de investigación en el Seguro Social de Salud del Perú: Propuesta de fortalecimiento y descentralización de la&nbsp;…</td>
+<td style="text-align: left;">CA Alarcon-Ruiz, A Benites-Bullón, B Solis-Chimoy, FL Sedano-Chiroque, …</td>
+<td style="text-align: left;">Revista del Cuerpo Médico Hospital Nacional Almanzor Aguinaga Asenjo</td>
+<td style="text-align: left;">15 (2&nbsp;…</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2022</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NLR y PLR como predictores de mortalidad en adultos mayores hospitalizados con Covid-19 en Lambayeque, 2020: reporte de resultados de investigación. Reporte de Resultados de&nbsp;…</td>
+<td style="text-align: left;">D Urrunaga Pastor, S Ortega Rojas, LC Salazar Talla, …</td>
+<td style="text-align: left;">Seguro Social de Salud (EsSalud)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2022</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Risk factors for mortality in hospitalized patients with COVID-19 from three hospitals in Peru: a retrospective cohort study</td>
+<td style="text-align: left;">C Díaz-Vélez, D Urrunaga-Pastor, A Romero-Cerdán, ER Peña-Sánchez, …</td>
+<td style="text-align: left;">F</td>
+<td style="text-align: left;">F1000Research 10</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">2021</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Producción científica y redes de colaboración en la Seguridad Social del Perú (EsSalud): Análisis bibliométrico 2008-2020</td>
+<td style="text-align: left;">CA Alarcón-Ruiz, AG Cortez-Soto, A Romero-Cerdan, A Benites-Bullón, …</td>
+<td style="text-align: left;">Revista del Cuerpo Médico Hospital Nacional Almanzor Aguinaga Asenjo</td>
+<td style="text-align: left;">14 (2&nbsp;…</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2021</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Scientific production and collaborative networks in peruvian social security (EsSalud): Bibliometric analysis 2008-2020</td>
+<td style="text-align: left;">CA Alarcón-Ruiz, AG Cortez-Soto, A Romero-Cerdan, A Benites-Bullón, …</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2021</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Risk factors for mortality in hospitalized patients with COVID-19 from three hospitals in Peru: A retrospective cohort study</td>
+<td style="text-align: left;">D Urrunaga-Pastor, C Díaz-Vélez, A Romero-Cerdán, ER Peña-Sánchez, …</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2021</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Características de los registros diagnósticos de preeclampsia en el Perú</td>
+<td style="text-align: left;">V Moquillaza-Alcántara, O Munares-García, A Romero-Cerdán</td>
+<td style="text-align: left;">Rev Obstet Ginecol Venez</td>
+<td style="text-align: left;">80 (1), 32-36</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Variación de los indicadores epidemiológicos del COVID-19 a partir de las políticas de emergencia adoptadas en países sudamericanos</td>
+<td style="text-align: left;">V Moquillaza-Alcántara, A Romero-Cerdán, O Munares-García, …</td>
+<td style="text-align: left;">SciELO Preprints</td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Variation in the epidemiological indicators of COVID-19 a part of the emergency policies adopted in south american countries</td>
+<td style="text-align: left;">V Moquillaza-Alcántara, A Romero-Cerdán, O Munares-García, …</td>
+<td style="text-align: left;">Variation in the epidemiological indicators of COVID-</td>
+<td style="text-align: left;">-19 a part of the&nbsp;…</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Impacto de las redes sociales en la salud de las personas</td>
+<td style="text-align: left;">V Moquillaza-Alcántara, A Romero-Cerdan</td>
+<td style="text-align: left;">Revista Internacional de Salud Materno Fetal</td>
+<td style="text-align: left;">4 (3), 29-30</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2019</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Publicación sobre ultrasonido obstétrico: Valores bibliométricos de revistas indexadas en Scopus</td>
+<td style="text-align: left;">VH Moquillaza Alcántara, GA Romero Cerdán</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Risk factors for mortality in hospitalized patients with COVID-19 from three hospitals in Peru: a retrospective cohort study [version 1; peer review: 2 approved]</td>
+<td style="text-align: left;">C Díaz-Vélez, D Urrunaga-Pastor, A Romero-Cerdán, E Peña-Sánchez, …</td>
+<td style="text-align: left;">F</td>
+<td style="text-align: left;">1 (0)</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alineamiento de la producción científica a las prioridades de investigación en el Seguro Social de Salud del Perú: Propuesta de fortalecimiento y descentralización de la&nbsp;…</td>
+<td style="text-align: left;">PHA Becerra, M Apolaya-Segura, JL Maguiña</td>
+<td style="text-align: left;">investigación</td>
+<td style="text-align: left;">13, 1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Risk factors for mortality in hospitalized patients with COVID-19 from three hospitals in Peru: a retrospective cohort study (preprint)</td>
+<td style="text-align: left;">C Díaz-Vélez, D Urrunaga-Pastor, A Romero-Cerdán, ER Peña-Sánchez, …</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<!-- aqui termina el tabset en ingles -->
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<div class="cv-about panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">CV</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Producción</a></li></ul>
+<div class="cv-about tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <section id="algunas-cosas-sobre-mí" class="level4">
 <h4 data-anchor-id="algunas-cosas-sobre-mí">Algunas cosas sobre mí</h4>
 <div class="d-flex justify-content-between">
@@ -945,16 +1134,178 @@ Universidad San Ignacio de Loyola<br>
 <p>Lima, PE <br> Investigador asociado</p>
 </div>
 </div>
-</section>
-</div>
-</div>
-</div>
 <!-- Boton para descargar el cv en pdf -->
 <p class="text-center">
   <a class="btn btn-primary btn-lg cv-download" href="cv_anthony.pdf" target="_blank">
     <i class="fa-solid fa-file-arrow-down"></i>CV/Resume PDF
   </a>
 </p>
+</section>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<section id="cheatsheets-traducidos" class="level3">
+<h3 data-anchor-id="cheatsheets-traducidos">Cheatsheets traducidos</h3>
+<p>Aquí encontrarás los <strong>Cheatsheets de R</strong> que he traducido junto a <a href="https://github.com/psotob91">Percy Soto</a> (<em>mi mentor en R</em>) y algunos amigos/as.</p>
+<p><img src="images/cheatsheet1.png" class="img-fluid" width="450"></p>
+</section>
+<section id="publicaciones" class="level3">
+<h3 data-anchor-id="publicaciones">Publicaciones</h3>
+<p>Puedes encontrar mis publicaciones en mis perfiles de <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" class="img-fluid"> <a href="https://orcid.org/0000-0001-6342-647X">Orcid</a> y <a href="https://scholar.google.com/citations?user=bSpylR0AAAAJ&amp;hl=es">Scholar</a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 21%">
+<col style="width: 19%">
+<col style="width: 5%">
+<col style="width: 1%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">title</th>
+<th style="text-align: left;">author</th>
+<th style="text-align: left;">journal</th>
+<th style="text-align: left;">number</th>
+<th style="text-align: right;">cites</th>
+<th style="text-align: right;">year</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">The neutrophil-to-Lymphocyte ratio and the platelet-to-Lymphocyte ratio as predictors of mortality in older adults hospitalized with COVID-19 in Peru</td>
+<td style="text-align: left;">S Ortega-Rojas, L Salazar-Talla, A Romero-Cerdán, P Soto-Becerra, …</td>
+<td style="text-align: left;">Disease Markers</td>
+<td style="text-align: left;">2022</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2022</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alineamiento de la producción científica a las prioridades de investigación en el Seguro Social de Salud del Perú: Propuesta de fortalecimiento y descentralización de la&nbsp;…</td>
+<td style="text-align: left;">CA Alarcon-Ruiz, A Benites-Bullón, B Solis-Chimoy, FL Sedano-Chiroque, …</td>
+<td style="text-align: left;">Revista del Cuerpo Médico Hospital Nacional Almanzor Aguinaga Asenjo</td>
+<td style="text-align: left;">15 (2&nbsp;…</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2022</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NLR y PLR como predictores de mortalidad en adultos mayores hospitalizados con Covid-19 en Lambayeque, 2020: reporte de resultados de investigación. Reporte de Resultados de&nbsp;…</td>
+<td style="text-align: left;">D Urrunaga Pastor, S Ortega Rojas, LC Salazar Talla, …</td>
+<td style="text-align: left;">Seguro Social de Salud (EsSalud)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2022</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Risk factors for mortality in hospitalized patients with COVID-19 from three hospitals in Peru: a retrospective cohort study</td>
+<td style="text-align: left;">C Díaz-Vélez, D Urrunaga-Pastor, A Romero-Cerdán, ER Peña-Sánchez, …</td>
+<td style="text-align: left;">F</td>
+<td style="text-align: left;">F1000Research 10</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">2021</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Producción científica y redes de colaboración en la Seguridad Social del Perú (EsSalud): Análisis bibliométrico 2008-2020</td>
+<td style="text-align: left;">CA Alarcón-Ruiz, AG Cortez-Soto, A Romero-Cerdan, A Benites-Bullón, …</td>
+<td style="text-align: left;">Revista del Cuerpo Médico Hospital Nacional Almanzor Aguinaga Asenjo</td>
+<td style="text-align: left;">14 (2&nbsp;…</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2021</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Scientific production and collaborative networks in peruvian social security (EsSalud): Bibliometric analysis 2008-2020</td>
+<td style="text-align: left;">CA Alarcón-Ruiz, AG Cortez-Soto, A Romero-Cerdan, A Benites-Bullón, …</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2021</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Risk factors for mortality in hospitalized patients with COVID-19 from three hospitals in Peru: A retrospective cohort study</td>
+<td style="text-align: left;">D Urrunaga-Pastor, C Díaz-Vélez, A Romero-Cerdán, ER Peña-Sánchez, …</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2021</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Características de los registros diagnósticos de preeclampsia en el Perú</td>
+<td style="text-align: left;">V Moquillaza-Alcántara, O Munares-García, A Romero-Cerdán</td>
+<td style="text-align: left;">Rev Obstet Ginecol Venez</td>
+<td style="text-align: left;">80 (1), 32-36</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Variación de los indicadores epidemiológicos del COVID-19 a partir de las políticas de emergencia adoptadas en países sudamericanos</td>
+<td style="text-align: left;">V Moquillaza-Alcántara, A Romero-Cerdán, O Munares-García, …</td>
+<td style="text-align: left;">SciELO Preprints</td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Variation in the epidemiological indicators of COVID-19 a part of the emergency policies adopted in south american countries</td>
+<td style="text-align: left;">V Moquillaza-Alcántara, A Romero-Cerdán, O Munares-García, …</td>
+<td style="text-align: left;">Variation in the epidemiological indicators of COVID-</td>
+<td style="text-align: left;">-19 a part of the&nbsp;…</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Impacto de las redes sociales en la salud de las personas</td>
+<td style="text-align: left;">V Moquillaza-Alcántara, A Romero-Cerdan</td>
+<td style="text-align: left;">Revista Internacional de Salud Materno Fetal</td>
+<td style="text-align: left;">4 (3), 29-30</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2019</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Publicación sobre ultrasonido obstétrico: Valores bibliométricos de revistas indexadas en Scopus</td>
+<td style="text-align: left;">VH Moquillaza Alcántara, GA Romero Cerdán</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Risk factors for mortality in hospitalized patients with COVID-19 from three hospitals in Peru: a retrospective cohort study [version 1; peer review: 2 approved]</td>
+<td style="text-align: left;">C Díaz-Vélez, D Urrunaga-Pastor, A Romero-Cerdán, E Peña-Sánchez, …</td>
+<td style="text-align: left;">F</td>
+<td style="text-align: left;">1 (0)</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alineamiento de la producción científica a las prioridades de investigación en el Seguro Social de Salud del Perú: Propuesta de fortalecimiento y descentralización de la&nbsp;…</td>
+<td style="text-align: left;">PHA Becerra, M Apolaya-Segura, JL Maguiña</td>
+<td style="text-align: left;">investigación</td>
+<td style="text-align: left;">13, 1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Risk factors for mortality in hospitalized patients with COVID-19 from three hospitals in Peru: a retrospective cohort study (preprint)</td>
+<td style="text-align: left;">C Díaz-Vélez, D Urrunaga-Pastor, A Romero-Cerdán, ER Peña-Sánchez, …</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<!-- aqui termina el tabset en español -->
+</div>
+</div>
+</div>
+<!-- aqui termina el tabset general -->
 
 
 </main></div>

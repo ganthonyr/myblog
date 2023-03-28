@@ -1,5 +1,14 @@
 /* css styles */
 
+/*nav bar*/
+.navbar-dark{
+  height: 66px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+}
+
 /*paar el logo con lentes*/
 .navbar-logo {
     max-height: 50px;
@@ -46,6 +55,20 @@
 .tab-content{
   border: 1px;
 }
+
+.navbar-nav .dropdown-menu{/*el menu de github*/
+  min-width: 6rem !important;
+}
+
+.dropdown-text:hover{
+  color: black;
+}
+
+.dropdown-item:hover{
+  background-color: #dae6f0;
+  color: black;
+}
+
 /*para los links del resumen*/
 .column-page a {
   color: #000;
@@ -67,6 +90,84 @@
 }
 
 /*seccion CV*/
+.text-end{
+  margin-left: 440px;
+}
+
+
+/*para los tabset de ingles y español*/
+.tab-content{
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.cv-about>.nav-tabs{
+  border-bottom: 1px solid transparent;
+  margin-top: -10px;
+}
+
+#tabset-3-1-tab, #tabset-3-2-tab{/*tab ingels y español*/
+  background-color: #dae6f0;
+  padding: 8px 17px;
+  font-size: 12px;
+}
+
+#tabset-3-1-tab.active, #tabset-3-2-tab.active{
+  font-weight: 900;
+}
+
+#tabset-3-2-tab{/*tab español*/
+  margin-left: 5px;
+}
+
+#tabset-1-1-tab, #tabset-1-2-tab, #tabset-2-1-tab, #tabset-2-2-tab{ /*tab cv y resources en ambos idiomas*/
+  border-top: 1px solid #dae6f0; 
+  border-right: 1px solid #dae6f0; 
+  border-left: 1px solid #dae6f0;
+  border-bottom: 1px solid #dae6f0;
+  font-weight: 900;
+  padding: 8px 18px;
+  margin-top: 5px;
+}
+
+#tabset-1-1-tab.active, #tabset-1-2-tab.active, #tabset-2-1-tab.active, #tabset-2-2-tab.active{
+  border-bottom: 3px solid #dae6f0;
+  border-top: 1px solid #dae6f0; 
+  border-right: 1px solid #dae6f0; 
+  border-left: 1px solid #dae6f0;
+}
+
+
+#tabset-1-2-tab, #tabset-2-2-tab{
+  margin-left: 5px ; 
+}
+
+#tabset-1-1-tab:hover, #tabset-1-2-tab:hover, #tabset-2-1-tab:hover, #tabset-2-2-tab:hover{
+  border-bottom: 3px solid #566472;
+}
+
+.nav-tabs .nav-link.active{ /*cuando english o español esten activos*/
+  border-bottom: 1px solid #dae6f0;
+}
+
+
+#publications a, #publicaciones a {/*links en publications*/
+  color: steelblue;
+}
+
+.header th {/*titulos de la tabla de publicaiones*/
+  text-align: center !important;
+  text-transform: capitalize;
+}
+
+#traslated-cheatsheets a, #cheatsheets-traducidos a{
+  color: #386890;
+}
+
+#traslated-cheatsheets a:hover, #cheatsheets-traducidos a:hover{
+  font-weight: bold;
+}
+
 /*PAra el boton de descargar CV*/
 .text-center {
   margin-top: 60px;

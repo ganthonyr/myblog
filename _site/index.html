@@ -60,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<link rel="stylesheet" media="screen" href="https://fonts.google.com/specimen/Source+Sans+Pro" type="text/css">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -80,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page">
  <span class="menu-text">Home</span></a>
@@ -97,11 +98,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./cv.html">
  <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/ganthonyr"><i class="bi bi-github" role="img">
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+ <span class="menu-text"></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-bi-github">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/ganthonyr/myblog">
+ <span class="dropdown-text">Source code</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/ganthonyr/myblog/issues">
+ <span class="dropdown-text">Report a bug</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/ganthonyr94"><i class="bi bi-twitter" role="img">
 </i> 
@@ -129,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <div class="quarto-about-jolla column-page">
   <img src="images/myphoto.jpg" class="about-image
-  rounded " style="width: 18em;">
+  rounded " style="width: 15em;">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Welcome to my website!👋</h1>
