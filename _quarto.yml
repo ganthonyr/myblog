@@ -16,8 +16,8 @@ website:
         href: blog.qmd
       - text: Tutoriales
         href: tutoriales.qmd
-      - text: CV
-        href: cv.qmd
+      - text: About
+        href: about.qmd
     right:
       - icon: github
         menu:

@@ -4,8 +4,8 @@ subtitle: Escuela de Medicina humana - UNMSM | Lima, Perú
 # author: Anthony R.
 # author-title: Autor
 # date: today
-published-title: Última actualización
-date: "03-24-2023"
+# published-title: Última actualización
+# date: "03-24-2023"
 date-format: short
 lang: Es
 about:
@@ -43,7 +43,7 @@ pacman::p_load(tinytex, tidyverse, scholar, knitr)
 
 ::: {.panel-tabset}
 
-## English
+## EN
 
 ::: {.cv-about .panel-tabset}
 
@@ -304,8 +304,8 @@ Dic 2020
 ::: {.column width="22%"}
 ##### *Languages:*
 
-![](images/r-icon.png) ![](images/git-icon.png)
-![](images/html-icon.png){width="40"} ![](images/css-icon.png)
+![](images/r-icon.png){data-toggle="tooltip" title="R language"} ![](images/git-icon.png){data-toggle="tooltip" title="Git"}
+![](images/html-icon.png){width="40" data-toggle="tooltip" title="HTML5"} ![](images/css-icon.png){data-toggle="tooltip" title="CSS3"}
 :::
 
 ::: {.column width="4%"}
@@ -315,8 +315,8 @@ Dic 2020
 ::: {.column width="22%"}
 ##### *Softwares:*
 
-![](images/rstudio-icon.png) ![](images/stata-icon.png)
-![](images/github-icon.png) ![](images/vscode-icon.png)
+![](images/rstudio-icon.png){data-toggle="tooltip" title="RStudio"} ![](images/stata-icon.png){data-toggle="tooltip" title="Stata"}
+![](images/github-icon.png){data-toggle="tooltip" title="Github"} ![](images/vscode-icon.png){data-toggle="tooltip" title="VSCode"}
 :::
 
 ::: {.column width="4%"}
@@ -326,7 +326,7 @@ Dic 2020
 ::: {.column width="22%"}
 ##### *Reference managers:*
 
-![](images/mendeley-icon.png) ![](images/zotero-icon.png)
+![](images/mendeley-icon.png){data-toggle="tooltip" title="Mendeley"} ![](images/zotero-icon.png){data-toggle="tooltip" title="Zotero"}
 :::
 
 ::: {.column width="4%"}
@@ -336,9 +336,9 @@ Dic 2020
 ::: {.column width="22%"}
 ##### *Academic search engines:*
 
-![](images/pubmed-icon.jpg){width="90"}
-![](images/cochrane-icon.png){width="55"}
-![](images/scopus-icon.png){width="85"}
+![](images/pubmed-icon.jpg){width="90" data-toggle="tooltip" title="PubMed"}
+![](images/cochrane-icon.png){width="55" data-toggle="tooltip" title="Cochrane"}
+![](images/scopus-icon.png){width="85" data-toggle="tooltip" title="Scopus"}
 :::
 :::
 
@@ -447,6 +447,25 @@ Research Associate
 ### Traslated Cheatsheets
 Here you will find the **R cheatsheets** that I have translated with [Percy Soto](https://github.com/psotob91) (*my R mentor*) and some friends.
 
+::: {.columns .cheatsheet-col}
+
+::: {.column width="40%"}
+![](images/cheatsheet1.png){width="450"}
+:::
+
+::: {.column width="40%"}
+<!-- Boton para descargar el cheatsheet -->
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cheatsheet-download" href="pdf-files/base-r_es.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>Descargar PDF
+  </a>
+</p>
+```
+:::
+
+::: 
+
 ### Publications
 
 You can find my **academic publications** in my ![](https://orcid.org/sites/default/files/images/orcid_16x16.png) [Orcid](https://orcid.org/0000-0001-6342-647X) and [Scholar](https://scholar.google.com/citations?user=bSpylR0AAAAJ&hl=es) profiles.
@@ -472,7 +491,7 @@ scholar::get_publications(id) %>%
 ::: 
 <!-- aqui termina el tabset en ingles -->
 
-## Español 
+## ES 
 
 ::: {.cv-about .panel-tabset}
 
@@ -697,8 +716,7 @@ Dic 2020
 
 ::: {.d-flex .justify-content-between}
 ::: {}
--   Miembro organizador del I y II Taller de Búsqueda Bibliográfica de
-    ADIECS
+-   Miembro organizador del I y II Taller de Búsqueda Bibliográfica de ADIECS
 :::
 ::: {text-end}
 2020 - 2021
@@ -755,8 +773,8 @@ periodo
 ::: {.column width="22%"}
 ##### *Lenguajes:*
 
-![](images/r-icon.png) ![](images/git-icon.png)
-![](images/html-icon.png){width="40"} ![](images/css-icon.png)
+![](images/r-icon.png){data-toggle="tooltip" title="R language"} ![](images/git-icon.png){data-toggle="tooltip" title="Git"}
+![](images/html-icon.png){width="40" data-toggle="tooltip" title="HTML5"} ![](images/css-icon.png){data-toggle="tooltip" title="CSS3"}
 :::
 
 ::: {.column width="4%"}
@@ -766,8 +784,8 @@ periodo
 ::: {.column width="22%"}
 ##### *Softwares:*
 
-![](images/rstudio-icon.png) ![](images/stata-icon.png)
-![](images/github-icon.png) ![](images/vscode-icon.png)
+![](images/rstudio-icon.png){data-toggle="tooltip" title="RStudio"} ![](images/stata-icon.png){data-toggle="tooltip" title="Stata"}
+![](images/github-icon.png){data-toggle="tooltip" title="Github"} ![](images/vscode-icon.png){data-toggle="tooltip" title="VSCode"}
 :::
 
 ::: {.column width="4%"}
@@ -777,7 +795,7 @@ periodo
 ::: {.column width="22%"}
 ##### *Gestores de referencia:*
 
-![](images/mendeley-icon.png) ![](images/zotero-icon.png)
+![](images/mendeley-icon.png){data-toggle="tooltip" title="Mendeley"} ![](images/zotero-icon.png){data-toggle="tooltip" title="Zotero"}
 :::
 
 ::: {.column width="4%"}
@@ -787,9 +805,9 @@ periodo
 ::: {.column width="22%"}
 ##### *Buscadores académicos:*
 
-![](images/pubmed-icon.jpg){width="90"}
-![](images/cochrane-icon.png){width="55"}
-![](images/scopus-icon.png){width="85"}
+![](images/pubmed-icon.jpg){width="90" data-toggle="tooltip" title="PubMed"}
+![](images/cochrane-icon.png){width="55" data-toggle="tooltip" title="Cochrane"}
+![](images/scopus-icon.png){width="85" data-toggle="tooltip" title="Scopus"}
 :::
 :::
 

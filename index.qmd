@@ -24,9 +24,9 @@ format:
     page-layout: full
 ---
 
-::: {.panel-tabset}
+::: {.panel-tabset .presentation}
 
-## English
+## EN
 
 -  Hi there! My name is Anthony Romero, I am a  🇵🇪 student of **Human Medicine** at the Universidad Nacional Mayor de San Marcos.  
 -  I am a constant learner who likes to work on **Health Data Science** projects.  
@@ -37,7 +37,7 @@ format:
 🧠 Current status: soon to learn **Python** :D
 :::  
 
-## Español
+## ES
 
 -  Hola a todos! Mi nombre es Anthony Romero, 🇵🇪 studiante de **Medicina humana** en la Universidad Nacional Mayor de San Marcos.  
 -  Soy un constante aprendiz que gusta de trabajar en proyectos de **Ciencia de Datos en Salud**.  

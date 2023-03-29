@@ -1,5 +1,8 @@
 /* css styles */
 
+
+/****SECCION NAVBAR ****/
+
 /*nav bar*/
 .navbar-dark{
   height: 66px;
@@ -9,15 +12,28 @@
   font-size: 18px;
 }
 
-/*paar el logo con lentes*/
+/*para el logo con lentes*/
 .navbar-logo {
-    max-height: 50px;
-    width: auto;
-    padding-right: 4px;
+  max-height: 50px;
+  width: auto;
+  padding-right: 4px;
 }
 
+/*el menu de github*/
+.navbar-nav .dropdown-menu{
+  min-width: 6rem !important;
+}
 
-/*Main*/
+.dropdown-text:hover{
+  color: black;
+}
+
+.dropdown-item:hover{
+  background-color: #dae6f0;
+  color: black;
+}
+
+/****SECCION BODY****/
 /*para la foto*/
 .about-image {
   box-shadow: 10px 10px 20px 0 rgba(32,32,32,0.3);
@@ -34,40 +50,29 @@
 }
 
 .text{
-  text-align: center;
+  text-align: center; /*el current status*/
 }
 
-
-.nav-tabs .nav-link {  
-  color: #566472;
-  font-weight: 400;
-}
-
-.nav-tabs .nav-link.active {
-  color: #566472;
-}
-
-.nav-tabs .nav-link:hover {
-  font-weight: 600;
-  background-color: #fbfbfc;
-}
-
-.tab-content{
+.tab-content{ 
   border: 1px;
 }
-
-.navbar-nav .dropdown-menu{/*el menu de github*/
-  min-width: 6rem !important;
+/*tab es y en HOME*/
+.presentation #tabset-1-1-tab, .presentation #tabset-1-2-tab{
+  background-color: #fff;
+  padding: 5px 14px;
+  font-size: 15px;
 }
 
-.dropdown-text:hover{
-  color: black;
+.presentation #tabset-1-1-tab.active, .presentation #tabset-1-2-tab.active{
+  font-weight: 900;
+  background-color: #f0f5f9;
+  border-bottom: 1px solid #dae6f0;
 }
 
-.dropdown-item:hover{
-  background-color: #dae6f0;
-  color: black;
+.presentation #tabset-1-2-tab{/*tab español*/
+  margin-left: 2px;
 }
+
 
 /*para los links del resumen*/
 .column-page a {
@@ -80,7 +85,7 @@
   color: #2C3E50;
 }
 
-/*Footer*/
+/****SECCION FOOTER****/
 .nav-footer-left .img-fluid {
   height: 25px;
 }
@@ -89,7 +94,8 @@
   font-size: 15px;
 }
 
-/*seccion CV*/
+
+/****SECCION ABOUT****/
 .text-end{
   margin-left: 440px;
 }
@@ -100,31 +106,36 @@
   padding-left: 1px;
   padding-right: 1px;
 }
-
+.nav-tabs{ /*tab es y en*/
+  border-bottom: 0 ;
+}
 .cv-about>.nav-tabs{
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid #dae6f0;
   margin-top: -10px;
 }
 
 #tabset-3-1-tab, #tabset-3-2-tab{/*tab ingels y español*/
-  background-color: #dae6f0;
-  padding: 8px 17px;
-  font-size: 12px;
+  background-color: #fff;
+  padding: 5px 14px;
+  font-size: 15px;
 }
+
 
 #tabset-3-1-tab.active, #tabset-3-2-tab.active{
   font-weight: 900;
+  background-color: #f0f5f9;
+  border-bottom: 1px solid #dae6f0;
 }
 
 #tabset-3-2-tab{/*tab español*/
-  margin-left: 5px;
+  margin-left: 2px;
 }
 
 #tabset-1-1-tab, #tabset-1-2-tab, #tabset-2-1-tab, #tabset-2-2-tab{ /*tab cv y resources en ambos idiomas*/
-  border-top: 1px solid #dae6f0; 
-  border-right: 1px solid #dae6f0; 
-  border-left: 1px solid #dae6f0;
-  border-bottom: 1px solid #dae6f0;
+  border-top: 1px solid transparent; 
+  border-right: 1px solid transparent; 
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid transparent;
   font-weight: 900;
   padding: 8px 18px;
   margin-top: 5px;
@@ -132,14 +143,14 @@
 
 #tabset-1-1-tab.active, #tabset-1-2-tab.active, #tabset-2-1-tab.active, #tabset-2-2-tab.active{
   border-bottom: 3px solid #dae6f0;
-  border-top: 1px solid #dae6f0; 
-  border-right: 1px solid #dae6f0; 
-  border-left: 1px solid #dae6f0;
+  border-top: 1px solid transparent; 
+  border-right: 1px solid transparent; 
+  border-left: 1px solid transparent;
 }
 
 
 #tabset-1-2-tab, #tabset-2-2-tab{
-  margin-left: 5px ; 
+  margin-left: 1px ; 
 }
 
 #tabset-1-1-tab:hover, #tabset-1-2-tab:hover, #tabset-2-1-tab:hover, #tabset-2-2-tab:hover{
@@ -160,13 +171,14 @@
   text-transform: capitalize;
 }
 
-#traslated-cheatsheets a, #cheatsheets-traducidos a{
+#traslated-cheatsheets a:not(.cheatsheet-download), #cheatsheets-traducidos a:not(.cheatsheet-download){
   color: #386890;
 }
 
 #traslated-cheatsheets a:hover, #cheatsheets-traducidos a:hover{
   font-weight: bold;
 }
+
 
 /*PAra el boton de descargar CV*/
 .text-center {
@@ -186,6 +198,16 @@
   color: white;
   font-weight: bold;
  
+}
+
+/*boton de descargar cheatsheet*/
+.cheatsheet-col{
+  justify-content: center;
+}
+
+.cheatsheet-download{
+  margin-left: -200px;
+  margin-top: 80px;
 }
 
 /*para las columnas de habilidades tecnicas*/
