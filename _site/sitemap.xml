@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://anthonyromero.netlify.app/index.html</loc>
-    <lastmod>2023-03-29T02:26:25.108Z</lastmod>
+    <lastmod>2023-05-05T06:06:01.385Z</lastmod>
   </url>
   <url>
     <loc>https://anthonyromero.netlify.app/cv.html</loc>
@@ -10,6 +10,26 @@
   </url>
   <url>
     <loc>https://anthonyromero.netlify.app/about.html</loc>
-    <lastmod>2023-03-29T03:22:15.138Z</lastmod>
+    <lastmod>2023-05-05T06:06:13.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anthonyromero.netlify.app/blog.html</loc>
+    <lastmod>2023-05-05T06:05:53.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anthonyromero.netlify.app/tutoriales.html</loc>
+    <lastmod>2023-05-05T05:22:29.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anthonyromero.netlify.app/posts/post-with-code/index.html</loc>
+    <lastmod>2023-05-05T04:33:17.766Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anthonyromero.netlify.app/posts/Manual/index.html</loc>
+    <lastmod>2023-05-05T05:22:26.478Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anthonyromero.netlify.app/posts/Manual/Manual-install-basesR.html</loc>
+    <lastmod>2023-05-05T05:03:38.092Z</lastmod>
   </url>
 </urlset>

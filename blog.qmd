@@ -13,4 +13,4 @@ description: Bienvenido a esta sección :D. Aquí encontrarás diversas publicac
 ---
 
 
-para agregar fechas en los posts: en el yml -> date: "`r format(Sys.time(), '%B %Y')`"
+<!-- para agregar fechas en los posts: en el yml -> date: "`r format(Sys.time(), '%B %Y')`" -->

@@ -14,8 +14,8 @@ website:
         href: index.qmd
       - text: Posts
         href: blog.qmd
-      - text: Tutoriales
-        href: tutoriales.qmd
+      # - text: Tutoriales
+      #   href: tutoriales.qmd
       - text: About
         href: about.qmd
     right:

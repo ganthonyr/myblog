@@ -1,0 +1,114 @@
+/******
+Manual de instalación de R, RStudio y Rtools
+*******/
+
+/*-------- Fuentes importadas de Google --------*/
+
+@import url(//fonts.googleapis.com/css?family=Roboto+Mono);
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400;500;700&display=swap');
+
+/*--------imagenes titulo---------*/
+#quarto-title-block > .img-fluid{
+  display: none;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+
+/*-------- Color de fondo y fuente del cuerpo --------*/
+body {
+  background-color: white;
+  font-family: 'Tajawal', sans-serif;
+  color: black;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*-------- Para el toc-float --------*/
+.sidebar nav[role=doc-toc] ul { /*todo los contenidos*/
+    padding-left: 0;
+    list-style: none;
+    font-size: .875rem;
+    font-weight: 300;
+    background-color: #f9fbfd;
+    border-radius: 3px;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active {
+    border-left: 1px solid steelblue;
+    color: steelblue !important; /*color de los titulos no seleccionados*/
+    font-weight: bold;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a:hover {
+    color: steelblue; /*color de los titulos no seleccionados*/
+    font-weight: bold;
+}
+
+/*------- Para la linea de autor y fecha -------*/
+.subtitle {
+    font-size: 30px;
+    color: #275478;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 300;
+}
+
+
+/*------- Hipervínculo --------*/
+a {
+    font-family: 'Tajawal', sans-serif;
+    color: #428DC8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #428DC8;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* Enfasis (ejm: italica) */
+em {
+    font-family: 'Tajawal', sans-serif;
+    color: black;
+}
+
+/*--------- Headers ---------*/
+
+h2 {
+  color: black;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+  color: black;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 500;
+}
+
+h4 {
+  color: black;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 500;
+  padding-top: 20px;
+  text-transform: Capitalize; /*opciones: UPPERCASE, lowercase y Capitalize*/
+}
+
+h5 {
+    color: black;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+}
+
+/*------- Estética de código en línea --------YA NO LO USO*/
+/*
+code {
+    font-family: 'Roboto Mono', monospace;
+    color: teal;
+    background-color: ghostwhite;
+    font-size: 13px;
+}
+*/

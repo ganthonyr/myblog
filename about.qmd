@@ -80,6 +80,27 @@ Lima, PE\
 
 ::: {.d-flex .justify-content-between}
 ::: {}
+-   **Program: "Code in Place"**\
+    Stanford University, EE.UU
+:::
+::: {text-end}
+Apr 2023 - present
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Program: "Oracle Next Education"**\
+    Oracle and Alura Latam Programming Training
+:::
+::: {text-end}
+Apr 2023 - present
+:::
+:::
+
+
+::: {.d-flex .justify-content-between}
+::: {}
 -   **Course: "Analysis of Sociodemographic Indicators with the ENAHO 2022-01"**  
     Pontifica Universidad Católica del Perú, Facultad de Ciencias
     Sociales
@@ -96,7 +117,7 @@ Oct - Nov 2022
     (UIMCA)
 :::
 ::: {text-end}
-Ene - Feb 2022
+Jan - Feb 2022
 :::
 :::
 
@@ -157,7 +178,7 @@ Mar - May 2021
     en Salud (IGSES-USIL)
 :::
 ::: {text-end}
-Ene - Feb 2021
+Jan - Feb 2021
 :::
 :::
 
@@ -167,7 +188,7 @@ Ene - Feb 2021
     Cochrane iberoamérica
 :::
 ::: {text-end}
-Dic 2020
+Dec 2020
 :::
 :::
 
@@ -442,10 +463,10 @@ Research Associate
 ```
 
 
-## Production
+## Projects
 
 ### Traslated Cheatsheets
-Here you will find the **R cheatsheets** that I have translated with [Percy Soto](https://github.com/psotob91) (*my R mentor*) and some friends.
+Here you will find the **R cheatsheets** that I have translated with [Percy Soto](https://github.com/psotob91) (*my R mentor*) and some friends. (PS: You can visit these and many other translated cheatsheets on the [Posit website](https://posit.co/resources/cheatsheets/?type=translations/))
 
 ::: {.columns .cheatsheet-col}
 
@@ -458,13 +479,74 @@ Here you will find the **R cheatsheets** that I have translated with [Percy Soto
 ```{=html}
 <p class="text-center">
   <a class="btn btn-primary btn-lg cheatsheet-download" href="pdf-files/base-r_es.pdf" target="_blank">
-    <i class="fa-solid fa-file-arrow-down"></i>Descargar PDF
+    <i class="fa-solid fa-file-arrow-down"></i>Download PDF
   </a>
 </p>
 ```
 :::
 
 ::: 
+
+
+::: {.columns .cheatsheet-col}
+
+::: {.column width="40%"}
+![](images/github-cheatsheet.png){width="450"}
+:::
+
+::: {.column width="40%"}
+<!-- Boton para descargar el cheatsheet -->
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cheatsheet-download" href="pdf-files/git-github-es.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>Download PDF
+  </a>
+</p>
+```
+:::
+
+::: 
+
+### HexStickers
+Here you will find **HexStickers** made with R that I have contributed to.
+
+::: {.columns .hex-col}
+
+::: {.column width="40%"}
+![](images/logo-inkastats.png){width="280"}
+:::
+
+::: {.column width="40%"}
+<!-- Boton para visitar la repo del hex -->
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cheatsheet-download" href="https://github.com/psotob91/InkaStat_HexSticker" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>Visit the Github repo
+  </a>
+</p>
+```
+:::
+
+:::
+
+::: {.columns .hex-col}
+
+::: {.column width="40%"}
+![](images/logo-redcap.png){width="300"}
+:::
+
+::: {.column width="40%"}
+<!-- Boton para visitar la repo del hex -->
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cheatsheet-download" href="https://github.com/psotob91/redcap-curso-ietsi2023" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>Visit the Github repo
+  </a>
+</p>
+```
+:::
+
+:::
 
 ### Publications
 
@@ -528,6 +610,27 @@ Lima, PE\
 :::
 
 #### Formación adicional
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Programa: "Code in Place"**\
+    Universidad de Stanford, EE.UU
+:::
+::: {text-end}
+Abr 2023 - Actualidad
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+-   **Programa: "Oracle Next Education"**\
+    Formación en programación de Oracle y Alura Latam
+:::
+::: {text-end}
+Abr 2023 - Actualidad
+:::
+:::
+
 
 ::: {.d-flex .justify-content-between}
 ::: {}
@@ -906,17 +1009,94 @@ Investigador asociado
 ```{=html}
 <p class="text-center">
   <a class="btn btn-primary btn-lg cv-download" href="cv_anthony.pdf" target="_blank">
-    <i class="fa-solid fa-file-arrow-down"></i>CV/Resume PDF
+    <i class="fa-solid fa-file-arrow-down"></i>Descargar CV en PDF
   </a>
 </p>
 ```
 
-## Producción
+## Proyectos
 
 ### Cheatsheets traducidos
-Aquí encontrarás los **Cheatsheets de R** que he traducido junto a [Percy Soto](https://github.com/psotob91) (*mi mentor en R*) y algunos amigos/as.
+Aquí encontrarás los **Cheatsheets de R** que he traducido junto a [Percy Soto](https://github.com/psotob91) (*mi mentor en R*) y algunos amigos/as. (Pd: Puedes visitar estos y otros cheatsheets traducidos en la [web de Posit.](https://posit.co/resources/cheatsheets/?type=translations/))
 
+::: {.columns .cheatsheet-col}
+
+::: {.column width="40%"}
 ![](images/cheatsheet1.png){width="450"}
+:::
+
+::: {.column width="40%"}
+<!-- Boton para descargar el cheatsheet -->
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cheatsheet-download" href="pdf-files/base-r_es.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>Descargar PDF
+  </a>
+</p>
+```
+:::
+
+::: 
+
+::: {.columns .cheatsheet-col}
+
+::: {.column width="40%"}
+![](images/github-cheatsheet.png){width="450"}
+:::
+
+::: {.column width="40%"}
+<!-- Boton para descargar el cheatsheet -->
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cheatsheet-download" href="pdf-files/git-github-es.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>Descargar PDF
+  </a>
+</p>
+```
+:::
+
+::: 
+
+### HexStickers
+Aquí encontrarás los **HexStickers** hechos con R en los que he contribuido.
+
+::: {.columns .hex-col}
+
+::: {.column width="40%"}
+![](images/logo-inkastats.png){width="280"}
+:::
+
+::: {.column width="40%"}
+<!-- Boton para visitar la repo del hex -->
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cheatsheet-download" href="https://github.com/psotob91/InkaStat_HexSticker" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>Visitar la repo en Github
+  </a>
+</p>
+```
+:::
+
+:::
+
+::: {.columns .hex-col}
+
+::: {.column width="40%"}
+![](images/logo-redcap.png){width="300"}
+:::
+
+::: {.column width="40%"}
+<!-- Boton para visitar la repo del hex -->
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cheatsheet-download" href="https://github.com/psotob91/redcap-curso-ietsi2023" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>Visitar la repo en Github
+  </a>
+</p>
+```
+:::
+
+:::
 
 ### Publicaciones
 
