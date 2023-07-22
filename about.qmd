@@ -888,6 +888,7 @@ periodo
 ##### *Softwares:*
 
 ![](images/rstudio-icon.png){data-toggle="tooltip" title="RStudio"} ![](images/stata-icon.png){data-toggle="tooltip" title="Stata"}
+![](images/redcap-icon.png){data-toggle="tooltip" title="REDCap"}
 ![](images/github-icon.png){data-toggle="tooltip" title="Github"} ![](images/vscode-icon.png){data-toggle="tooltip" title="VSCode"}
 :::
 
